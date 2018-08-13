@@ -1,0 +1,2 @@
+dfx5.select($"Year").filter($"Year">="1970" && $"Year"<= "1983").groupBy($"Year").count().sort($"Year".desc).show()
+
